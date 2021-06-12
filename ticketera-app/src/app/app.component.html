@@ -1,0 +1,11 @@
+
+
+<div *ngFor="let boton of botones">
+  <button mat-raised-button color="accent" (click)="traerResultado(boton)">{{boton.descripcion}}</button>
+  <mat-card *ngIf="boton.resultado!=null">
+    {{boton.resultado}}
+  </mat-card>
+  <mat-divider></mat-divider>
+</div>
+
+<router-outlet></router-outlet>
