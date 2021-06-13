@@ -30,13 +30,28 @@ export class AppComponent {
       resultado: null
     },
     {
+      descripcion:"A qué hora hay menos trabajo",
+      link:"https://ticketera-back.herokuapp.com/tickets/ejercicio4inverso",
+      resultado: null
+    },
+    {
       descripcion:"Qué trabajos están sin resolver",
       link:"https://ticketera-back.herokuapp.com/tickets/ejercicio5",
+      resultado: null
+    },    
+    {
+      descripcion:"Qué trabajos están resueltos",
+      link:"https://ticketera-back.herokuapp.com/tickets/ejercicio5inverso",
       resultado: null
     },
     {
       descripcion:"Desperfectos por zona",
       link:"https://ticketera-back.herokuapp.com/tickets/ejercicio6",
+      resultado: null
+    },
+    {
+      descripcion:"Desperfectos en Temperley",
+      link:"https://ticketera-back.herokuapp.com/tickets/ejercicio6especifico",
       resultado: null
     },
     {
@@ -47,6 +62,11 @@ export class AppComponent {
     {
       descripcion:"Quién hace más tickets",
       link:"https://ticketera-back.herokuapp.com/tickets/ejercicio8",
+      resultado: null
+    },
+    {
+      descripcion:"Quién tiene al menos un ticket y hace menos tickets",
+      link:"https://ticketera-back.herokuapp.com/tickets/ejercicio8inverso",
       resultado: null
     },
     {
@@ -67,6 +87,16 @@ export class AppComponent {
     {
       descripcion:"Qué planes tiene contratado cada cliente",
       link:"https://ticketera-back.herokuapp.com/clientes/ejercicio12",
+      resultado: null
+    },
+    {
+      descripcion:"Qué cliente reside más cerca del centro técnico",
+      link:"https://ticketera-back.herokuapp.com/clientes/ejercicio13",
+      resultado: null
+    },
+    {
+      descripcion:"Qué cliente reside más lejos del centro técnico",
+      link:"https://ticketera-back.herokuapp.com/clientes/ejercicio13inverso",
       resultado: null
     }
   ]
